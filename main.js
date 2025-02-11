@@ -29,7 +29,7 @@ function getPostsByTags(tags) {
 
   if(!tags) return posts;
 
-  return posts.filter((post)=> post.tags.some(tag=> tags.includes(tag)));
+  return posts.filter((post)=> post.tags.some(tag=> tags.includes(tag)))
 
 
 }
